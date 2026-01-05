@@ -15,7 +15,6 @@ body {
   display: flex;
   min-height: 100vh;
   align-items: center;
-	padding: 70px;
 
   background-image:
   radial-gradient(circle at 100% 150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),
@@ -26,7 +25,7 @@ body {
   background-size:100px 50px;
 }
 
-/* .voiceinator {
+.voiceinator {
   padding: 2rem;
   width: 50rem;
   margin: 0 auto;
@@ -92,46 +91,4 @@ input[type="select"] {
 
 .voiceinator button:nth-of-type(1) {
   margin-right: 2%;
-} */
-
-.app {
-      background: #fff;
-      padding: 20px;
-      width: 350px;
-      border-radius: 6px;
-    }
-
-    h1 {
-      background: #ffc107;
-      padding: 10px;
-      text-align: center;
-      margin: -20px -20px 20px;
-    }
-
-    select, textarea, input, button {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-
-    textarea {
-      height: 100px;
-      padding: 8px;
-    }
-
-    button {
-      padding: 10px;
-      background: #ffc107;
-      border: none;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: #ffb300;
-    }
-
-    label {
-      font-size: 14px;
-      display: block;
-      margin-bottom: 4px;
-    }
+}
